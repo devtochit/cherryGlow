@@ -35,7 +35,7 @@ export default class List {
     const lists = this.getList();
     const listRemoved = lists.filter((item) => {
       if (item.completed) {
-        return null;
+        return undefined;
       }
       return item;
     });
