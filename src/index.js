@@ -1,6 +1,6 @@
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
-import './styles.css';
+import './style.css';
 import Sortable from 'sortablejs';
 import List from './modules/List.js';
 
@@ -20,12 +20,12 @@ const viewPage = () => {
                         <li id="${list.index - 1}" class = "todo-list" >
                           <div class="list">
                             <input type="checkbox" name="${list.index}" id="${list.index
-          }" class="checkbox" checked>
+}" class="checkbox" checked>
                             <label for="${list.index}"><s>${list.description
-          }</s></label>
+}</s></label>
                           </div>
                           <button type="button" id= "${list.index - 1
-          }" class="deleteList">
+}" class="deleteList">
                           <i class="fa-solid fa-trash-can"></i>
                           </button>
                         </li>  
@@ -35,12 +35,12 @@ const viewPage = () => {
                         <li id="${list.index - 1}" class = "todo-list" >
                           <div class="list">
                             <input type="checkbox" name="${list.index}" id="${list.index
-          }" class="checkbox">
+}" class="checkbox">
                             <label for="${list.index}">${list.description
-          }</label>
+}</label>
                           </div>
                           <button type="button" id= "${list.index - 1
-          }" class="deleteList">
+}" class="deleteList">
                           <i class="fa-solid fa-trash-can"></i>
                           </button>
                         </li>  
